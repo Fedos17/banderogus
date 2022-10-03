@@ -195,11 +195,14 @@ header{
 }
 
 .modal-form{
-    background: #fff;
-    padding: 32px 92px 60px 92px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.modal-form-container{
+    background: #fff;
+    padding: 32px 92px 60px 92px;
     position: relative;
 }
 
