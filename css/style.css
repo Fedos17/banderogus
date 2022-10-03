@@ -1,0 +1,24 @@
+html,
+body{
+    height: 100%;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.main-page{
+    background: linear-gradient(270deg, #A5DEFF 1.03%, rgba(255, 255, 255, 0) 99.3%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    margin: 34px 0 58px 0;
+    display: flex;
+}
+
+.logo-text{
+    margin: 0 0 0 18px;
+}
