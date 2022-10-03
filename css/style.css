@@ -1,11 +1,16 @@
 html,
 body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 16px;
     height: 100%;
 }
 
 .wrapper{
     width: 1170px;
     margin: 0 auto;
+    height: 100%;
+    position: relative;
 }
 .main-page{
     background: linear-gradient(270deg, #A5DEFF 1.03%, rgba(255, 255, 255, 0) 99.3%);
@@ -17,8 +22,249 @@ body{
 header{
     margin: 34px 0 58px 0;
     display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .logo-text{
     margin: 0 0 0 18px;
 }
+
+.banderogus-container{
+    background: #fff;
+    padding: 60px 56px;
+    width: 584px;
+    height: 520px;
+    align-self: center;
+}
+
+.banderogus-greeting{
+    font-weight: 600;
+    line-height: 24px;
+    color: #1F1E22;
+    margin: 0 0 16px 0;
+}
+
+.banderogus-start-text{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FF6B0A;
+    margin: 0 0 48px 0;
+}
+
+.banderogus-title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: #010101;
+    margin: 0 0 24px 0;
+}
+
+.banderogus-description{
+    font-weight: 400;
+    line-height: 24px;
+    color: #1F1E22;
+    margin: 0 0 48px 0;
+}
+
+.banderogus-launch{
+    padding: 12px 24px;
+    background: #FF6B0A;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.main-page-row{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.banderogus-img{
+    align-self: flex-end;
+}
+
+.gus-facts{
+    margin: 51px 95px 72px 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gus-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1F1E22;
+    margin: 16px auto;
+}
+
+.gus-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1F1E22;
+    width: 875px;
+}
+
+.gus-facts-container{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gus-fact{
+    width: 33%;
+}
+
+.gus-fact-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1F1E22;
+    margin: 12px 0 32px 0;
+}
+
+.gus-fact-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1E22;
+    width: 280px;
+}
+
+.ukr-logo{
+    margin: 21px 0 0 0;
+}
+.victory-dgd{
+    width: 1170px;
+    background: linear-gradient(270deg, #CCECFF 1.03%, rgba(255, 255, 255, 0) 99.3%);
+    padding: 27px 0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.victory-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.victory-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1F1E22;
+    margin: 16px 0;
+}
+
+.victory-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1F1E22;
+    width: 875px;
+    margin: 0 0 65px 0;
+}
+
+.modal-bgd{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(31, 30, 34, 0.7);
+    /*opacity: 0.7;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-form{
+    background: #fff;
+    padding: 32px 92px 60px 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.modal-form-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    margin: 32px 0 25px 0;
+}
+
+.modal-form-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+
+.modal-form-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.modal-field-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.modal-field-input{
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 24px;
+    padding: 4px 8px;
+}
+
+.close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: #1F1E22;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+.flag{
+    background: linear-gradient(180deg, #0082D1 0%, #FFD100 100%);
+}
+
+
+.modal-active{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
