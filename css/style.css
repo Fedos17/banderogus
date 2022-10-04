@@ -249,6 +249,11 @@ header{
     padding: 4px 8px;
 }
 
+.modal-field-input:focus{
+    background: #e3e3e3;
+    border: 1px solid #004998;
+}
+
 .close-btn{
     position: absolute;
     right: 20px;
@@ -269,5 +274,7 @@ header{
     opacity: 1;
     pointer-events: all;
 }
+
+
 
 
